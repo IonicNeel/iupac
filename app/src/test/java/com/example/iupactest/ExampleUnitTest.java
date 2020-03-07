@@ -1,4 +1,4 @@
-package com.example.iupac;
+package com.example.iupactest;
 
 import org.junit.Test;
 

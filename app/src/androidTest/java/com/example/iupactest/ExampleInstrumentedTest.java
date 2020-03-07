@@ -1,4 +1,4 @@
-package com.example.iupac;
+package com.example.iupactest;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.iupac", appContext.getPackageName());
+        assertEquals("com.example.iupactest", appContext.getPackageName());
     }
 }
