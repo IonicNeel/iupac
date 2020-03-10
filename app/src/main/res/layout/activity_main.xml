@@ -323,18 +323,35 @@
         android:id="@+id/go"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/righteous"
-        android:textSize="50dp"
-        android:text="Go"
-        android:textColor="@android:color/black"
         android:background="@drawable/border"
+        android:fontFamily="@font/righteous"
+        android:text="Go"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.454" />
+        app:layout_constraintVertical_bias="0.448" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="197dp"
+        android:layout_height="71dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/righteous"
+        android:text="Clear All"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
 
     <TextView
         android:id="@+id/answer"
@@ -353,5 +370,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:fontFamily="@font/righteous"
+        android:text="Nomenclature"
+        android:textAlignment="center"
+        android:clickable="false"
+        android:textColor="@android:color/black"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
