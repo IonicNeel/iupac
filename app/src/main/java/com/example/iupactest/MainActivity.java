@@ -143,6 +143,27 @@ public class MainActivity extends AppCompatActivity {
                         e++;
                         posflourine.add(j-fjc+1);
                     }
+                    if(grid[fic-1][j].equals("Cl")) {
+                        Cl++;
+                        e++;
+                        poschlorine.add(j-fjc+1);
+                    }
+                    if(grid[fic+1][j].equals("Cl")){
+                        Cl++;
+                        e++;
+                        poschlorine.add(j-fjc+1);
+                    }
+                    if(grid[fic][j-1].equals("Cl")){
+                        Cl++;
+                        e++;
+                        poschlorine.add(j-fjc+1);
+                    }
+
+                    if(grid[fic][j+1].equals("Cl")){
+                        Cl++;
+                        e++;
+                        poschlorine.add(j-fjc+1);
+                    }
 
 
 
@@ -224,6 +245,17 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                         temp = temp+"-"+count[F]+"flouro";
+                        ans = temp+ans;
+                    }
+                    if(Cl>=1){
+                        temp = "";
+                        for(int i = 0; i<poschlorine.size();i++){
+                            temp = temp + Integer.toString(poschlorine.get(i));
+                            if(i != poschlorine.size()-1){
+                                temp = temp + ",";
+                            }
+                        }
+                        temp = temp+"-"+count[F]+"chloro";
                         ans = temp+ans;
                     }
 
