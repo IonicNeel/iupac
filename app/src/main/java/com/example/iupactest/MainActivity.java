@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
                         ans = ans + "yne";
                     }
 
-                    else if(doublebonds > 1 && triplebonds == 0){
+                    if(doublebonds > 1){
                         ans = ans+"-";
                         for(int i = 0; i<posdoublebond.size();i++){
                             ans = ans + Integer.toString(posdoublebond.get(i));
@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
                         ans = ans + count[doublebonds];
                         ans = ans + "ene";
                     }
-                    else if(triplebonds > 1 && doublebonds == 0){
+                    if(triplebonds > 1 ){
                         ans = ans+"-";
                         for(int i = 0; i<postriplebond.size();i++){
                             ans = ans + Integer.toString(postriplebond.get(i));
@@ -255,7 +255,7 @@ public class MainActivity extends AppCompatActivity {
                                 temp = temp + ",";
                             }
                         }
-                        temp = temp+"-"+count[F]+"chloro";
+                        temp = temp+"-"+count[Cl]+"chloro";
                         ans = temp+ans;
                     }
 
@@ -285,6 +285,7 @@ public class MainActivity extends AppCompatActivity {
                         EditText t = findViewById(resid);
                         t.setText("");
                         answer.setVisibility(View.INVISIBLE);
+                        grid[i][j] = "";
                     }
                 }
             }
