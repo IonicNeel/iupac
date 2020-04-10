@@ -10,21 +10,21 @@
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/maingrid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="352dp"
+        android:layout_height="106dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="210dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
 
         <EditText
             android:id="@+id/cell00"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:clickable="false"
             android:maxLength="2"
@@ -35,8 +35,8 @@
 
         <EditText
             android:id="@+id/cell01"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -46,8 +46,8 @@
 
         <EditText
             android:id="@+id/cell02"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -57,8 +57,8 @@
 
         <EditText
             android:id="@+id/cell03"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -68,8 +68,8 @@
 
         <EditText
             android:id="@+id/cell04"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -79,8 +79,8 @@
 
         <EditText
             android:id="@+id/cell05"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -90,8 +90,8 @@
 
         <EditText
             android:id="@+id/cell06"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -101,8 +101,8 @@
 
         <EditText
             android:id="@+id/cell07"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -112,8 +112,8 @@
 
         <EditText
             android:id="@+id/cell08"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -123,8 +123,8 @@
 
         <EditText
             android:id="@+id/cell09"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -134,8 +134,8 @@
 
         <EditText
             android:id="@+id/cell10"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:clickable="false"
             android:maxLength="2"
@@ -146,8 +146,8 @@
 
         <EditText
             android:id="@+id/cell11"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -157,8 +157,8 @@
 
         <EditText
             android:id="@+id/cell12"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -168,8 +168,8 @@
 
         <EditText
             android:id="@+id/cell13"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -179,8 +179,8 @@
 
         <EditText
             android:id="@+id/cell14"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -190,8 +190,8 @@
 
         <EditText
             android:id="@+id/cell15"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -201,8 +201,8 @@
 
         <EditText
             android:id="@+id/cell16"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -212,8 +212,8 @@
 
         <EditText
             android:id="@+id/cell17"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -223,8 +223,8 @@
 
         <EditText
             android:id="@+id/cell18"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -234,8 +234,8 @@
 
         <EditText
             android:id="@+id/cell19"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -245,8 +245,8 @@
 
         <EditText
             android:id="@+id/cell20"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:clickable="false"
             android:maxLength="2"
@@ -257,8 +257,8 @@
 
         <EditText
             android:id="@+id/cell21"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -268,8 +268,8 @@
 
         <EditText
             android:id="@+id/cell22"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -279,8 +279,8 @@
 
         <EditText
             android:id="@+id/cell23"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -290,8 +290,8 @@
 
         <EditText
             android:id="@+id/cell24"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -301,8 +301,8 @@
 
         <EditText
             android:id="@+id/cell25"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -312,8 +312,8 @@
 
         <EditText
             android:id="@+id/cell26"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -323,8 +323,8 @@
 
         <EditText
             android:id="@+id/cell27"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -334,8 +334,8 @@
 
         <EditText
             android:id="@+id/cell28"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -345,8 +345,8 @@
 
         <EditText
             android:id="@+id/cell29"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/border"
             android:maxLength="2"
             android:text=""
@@ -400,7 +400,7 @@
         android:text="Answer:-"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="38dp"
+        android:textSize="42dp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
