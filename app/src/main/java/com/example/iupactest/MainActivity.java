@@ -2,7 +2,6 @@ package com.example.iupactest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.inputmethodservice.Keyboard;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -262,7 +261,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 answer.setVisibility(View.VISIBLE);
                 if(error)
-                    answer.setText("ERROR");
+                    answer.setText("ERROR IN CARBON CHAIN");
                 else
                     answer.setText(ans);
             }
